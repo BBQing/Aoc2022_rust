@@ -1,6 +1,10 @@
 extern crate day01;
+extern crate utils;
 
-use day01::{process_buffer, read_file};
+
+use day01::{process_buffer};
+use utils::read_file;
+
 use std::cmp::Reverse;
 use std::collections::BinaryHeap;
 
